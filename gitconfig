@@ -1,0 +1,10 @@
+[color]
+	ui = true
+[user]
+	name = Shawna Martell
+	email = shawna.martell@gmail.com
+[alias]
+	up = pull --rebase --prune
+	cob = checkout -b
+	publish = push -u origin
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
