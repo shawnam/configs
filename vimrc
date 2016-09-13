@@ -13,6 +13,9 @@ set nocompatible              " be iMproved, required
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+"https://github.com/scrooloose/nerdtree"
+Plugin 'scrooloose/nerdtree'
+
 "https://github.com/janko-m/vim-test"
 Plugin 'janko-m/vim-test'
 
@@ -66,7 +69,5 @@ set backupdir=~/.vim/_backup//    " where to put backup files.
 set directory=~/.vim/_temp//      " where to put swap files.
 
 :let NERDTreeQuitOnOpen = 0
-
-syntax on
 
 colorscheme vividchalk
